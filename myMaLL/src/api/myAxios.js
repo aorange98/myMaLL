@@ -1,15 +1,15 @@
 /*
  * 封装axios请求的格式，统一 get 和post的请求格式
  * 
- * baseURL:'http://123.207.32.32:8000/api/h3',  
- * baseURL:'http://106.54.54.237:8000/api/h3',
- * baseURL:'http://152.136.185.210:8000/api/h3',
+ * baseURL:'http://123.207.32.32:8000/api/h8',  
+ * baseURL:'http://106.54.54.237:8000/api/h8',
+ * baseURL:'http://152.136.185.210:8000/api/h8',
  * 
  */
 
 
 import axios from 'axios'
-// axios.defaults.baseURL = 'http://106.54.54.237:8000/api/h3'
+// axios.defaults.baseURL = 'http://106.54.54.237:8000/api/h8'
 
 // 设置axios响应数据的统一格式
 axios.interceptors.response.use(res=>res.data)

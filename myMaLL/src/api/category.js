@@ -1,6 +1,6 @@
 import MyAxios from './myAxios'
+import { baseURL } from './baseURL'
 
-let baseURL = 'http://106.54.54.237:8000/api/h3'
 
 // // 请求detail组件的数据
 // export const reqCategory = () => MyAxios('/category')
